@@ -1,0 +1,99 @@
+*logo*
+Menu
+Shop
+Banner
+Specialty Drinks
+Drink #1
+Drink #2
+Drink #3
+Store Location
+Contact Us
+Home
+Menu
+Shop
+
+*logo*
+Menu
+Home
+Shop
+Menu
+Hot Drinks
+$$
+Coffee
+2 / 2.50 / 3
+Tea
+2 / 2.50 / 3
+Cappuccino
+3 / 3.75 / 4
+Latté
+2.75 / 3.25 / 3.50
+Mocha
+3 / 3.50 / 4
+Hot Chocolate
+3 / 3.50 / 4
+Espresso
+2 / 2.50 / 3
+Cold Drinks
+$$
+Iced Coffee
+2 / 2.50 / 3
+Iced Tea
+2 / 2.50 / 3
+Iced Mocha
+3 / 3.50 / 4
+Iced Americano
+2 / 2.50 / 3
+Lemonade
+2.50 / 3 / 3.50
+Milk
+2 / 2.50 / 3
+Chocolate Milk
+2 / 2.50 / 3
+Extras
+$$
+Shot of Espresso
+0.75
+Shot of Syrup
+2
+Whipped Cream
+2.50
+Desserts
+$$
+Cookies
+2.75
+Cupcakes
+3.50
+Donuts
+3
+Muffins
+4
+Cheesecake
+5.5
+Contact Us
+Home
+Menu
+Shop
+
+
+*logo*
+Shop
+Home
+Menu
+Mugs & Cups
+Pic 1
+Pic 2
+Pic 3
+Pic 4
+Coffee
+Pic 1
+Pic 2
+Pic 3
+Pic 4
+Tea
+Pic 1
+Pic 2
+Pic 3
+Pic 4
+Home
+Menu
+Shop
