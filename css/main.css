@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-family: "Maven Pro", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+img {
+  width: 100%;
+}
