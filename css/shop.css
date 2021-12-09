@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  font-family: "Maven Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #67381B;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header img {
+  width: 64px;
+  color: #fff;
+}
+
+header {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #472410;
+  padding: .5rem 2rem;
+}
+
+header img {
+  filter: invert(5);
+}
+
+header ul{
+  list-style-type: none;
+  padding: 0;
+  margin-left: -16rem;
+  display: inline-flex;
+}
+
+header a{
+  text-decoration: none;
+  color: #67381B;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.25rem;
+  margin: .5rem;
+  padding: .5rem 1rem;
+}
+
+header li a{
+  align-items: center;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+header a:hover{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.25rem;
+  margin: .5rem;
+  padding: .5rem 1rem;
+}
+
+header li a:hover{
+  align-items: center;
+  text-decoration: none;
+  background-color: #472410;
+  border: 2px solid #fff;
+}
+
+main img {
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+  "title"
+  "drinks"
+  ;
+}
+
+main h2{
+  font-size: 2rem;
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+  margin-bottom: -.35rem;
+  text-align: left;
+  color: #fff;
+  background-color: #67381B;
+}
+
+main ol{
+  list-style: none;
+  display: inline-flex;
+  background-color: #472410;
+}
+
+main ol li{
+  margin: 0;
+  padding: 1rem;
+}
+
+.title {
+  grid-area: title;
+}
+
+.drinks {
+  grid-area: drinks;
+}
+
+footer {
+  padding: 1rem;
+  margin: 0;
+  background: #472410;
+}
+
+footer ul{
+  list-style: none;
+  display: inline-flex;
+}
+
+footer ul a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer ul:hover{
+  list-style: none;
+  display: inline-flex;
+}
+
+footer ul a:hover{
+  text-decoration: none;
+  color: #472410;
+  background-color: #fff;
+}
