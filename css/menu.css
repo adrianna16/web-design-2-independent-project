@@ -85,14 +85,14 @@ main {
 }
 
 main {
-    background-color: #966950;
+  background-color: #966950;
 }
 
 main div ol {
   display: grid;
-grid-template-columns: 1fr 1fr;
-font-size: 1.5rem;
-text-align: justify;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 
 main div.hot {
@@ -130,7 +130,7 @@ main h2 {
   background-color: #472410;
   color: #fff;
   padding: 1.5rem;
-text-align: center;
+  text-align: center;
   font-size: 2rem;
 }
 
@@ -139,21 +139,17 @@ text-align: center;
 
   html {
     font-size: 50%;
-   width: 100%;
+    width: 100%;
   }
 
-header ul {
-  display: none;
-}
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  font-size: 75%;
-}
+  footer {
+    font-size: 75%;
+  }
 
 }
 
@@ -163,10 +159,6 @@ footer {
   }
   html {
     font-size: 1rem;
-  }
-
-  header ul {
-    display: none;
   }
 
   main {
