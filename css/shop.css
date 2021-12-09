@@ -118,6 +118,41 @@ main ol li {
   grid-area: drinks;
 }
 
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 50%;
+    width: 100%;
+  }
+
+  main li {
+    width: 50%;
+  }
+
+  header img {
+    width: 32px;
+  }
+
+  footer {
+    font-size: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+  header img {
+    width: 64px;
+  }
+  html {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 75%;
+  }
+
+}
+
 footer {
   padding: 1rem;
   margin: 0;
