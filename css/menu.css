@@ -3,7 +3,7 @@ html {
   font-family: "Maven Pro", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #67381B;
+  background-color: #67381b;
 }
 
 *, *::before, *::after {
@@ -21,6 +21,7 @@ img {
 header img {
   width: 64px;
   color: #fff;
+  filter: invert(5);
 }
 
 header {
@@ -33,11 +34,7 @@ header {
   padding: .5rem 2rem;
 }
 
-header img {
-  filter: invert(5);
-}
-
-header ul{
+header ul {
   list-style-type: none;
   padding: 0;
   display: inline-flex;
@@ -48,22 +45,22 @@ header h1 {
   position: static;
 }
 
-header a{
+header a {
   text-decoration: none;
-  color: #67381B;
+  color: #67381b;
   font-family: "Maven Pro", sans-serif;
   font-size: 1.25rem;
   margin: .5rem;
   padding: .5rem 1rem;
 }
 
-header li a{
+header li a {
   align-items: center;
   text-decoration: none;
   background-color: #fff;
 }
 
-header a:hover{
+header a:hover {
   text-decoration: none;
   color: #fff;
   font-family: "Maven Pro", sans-serif;
@@ -72,7 +69,7 @@ header a:hover{
   padding: .5rem 1rem;
 }
 
-header li a:hover{
+header li a:hover {
   align-items: center;
   text-decoration: none;
   background-color: #472410;
@@ -91,45 +88,45 @@ main {
     background-color: #966950;
 }
 
-main div ol{
+main div ol {
   display: grid;
 grid-template-columns: 1fr 1fr;
 font-size: 1.5rem;
 text-align: justify;
 }
 
-main div.hot{
+main div.hot {
   grid-row: 1;
   grid-column: 1;
 }
 
-main div.cold{
+main div.cold {
   grid-row: 1;
   grid-column: 2;
 }
 
-main div.extras{
+main div.extras {
   grid-row: 2;
   grid-column: 1;
 }
 
-main div.desserts{
+main div.desserts {
   grid-row: 2;
   grid-column: 2;
 }
 
-main ol{
+main ol {
   list-style: none;
 }
 
-main li{
+main li {
   padding: 2rem .5rem;
   color: #fff;
   text-align: justify;
   border-bottom: 1px solid #fff;
 }
 
-main h2{
+main h2 {
   background-color: #472410;
   color: #fff;
   padding: 1.5rem;
@@ -160,7 +157,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 50em){
+@media only screen and (min-width: 50em) {
   header img {
     width: 64px;
   }
@@ -189,23 +186,23 @@ footer {
   background: #472410;
 }
 
-footer ul{
+footer ul {
   list-style: none;
   display: inline-flex;
 }
 
-footer ul a{
+footer ul a {
   text-decoration: none;
   color: #fff;
   padding: 1rem;
 }
 
-footer ul:hover{
+footer ul:hover {
   list-style: none;
   display: inline-flex;
 }
 
-footer ul a:hover{
+footer ul a:hover {
   text-decoration: none;
   color: #472410;
   background-color: #fff;
