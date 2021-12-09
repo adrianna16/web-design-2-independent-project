@@ -117,10 +117,10 @@ main ol li{
   grid-area: drinks;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 25em) {
 
   html {
-    font-size: 50%;
+  font-size: 50%;
    width: 100%;
   }
 
@@ -143,7 +143,7 @@ header ul {
 
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (min-width: 50em){
   header img {
     width: 64px;
   }
