@@ -134,38 +134,6 @@ main h2 {
   font-size: 2rem;
 }
 
-
-@media only screen and (min-width: 25em) {
-
-  html {
-    font-size: 50%;
-    width: 100%;
-  }
-
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer {
-    font-size: 75%;
-  }
-
-}
-
-@media only screen and (min-width: 50em) {
-  header img {
-    width: 64px;
-  }
-  html {
-    font-size: 1rem;
-  }
-
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-
   footer {
     font-size: 75%;
   }
