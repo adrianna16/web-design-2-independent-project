@@ -3,7 +3,7 @@ html {
   font-family: "Maven Pro", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #67381B;
+  background-color: #67381b;
 }
 
 *, *::before, *::after {
@@ -50,7 +50,7 @@ header h1 {
 
 header a{
   text-decoration: none;
-  color: #67381B;
+  color: #67381b;
   font-family: "Maven Pro", sans-serif;
   font-size: 1.25rem;
   margin: .5rem;
@@ -99,7 +99,7 @@ main h2{
   margin-bottom: -.35rem;
   text-align: left;
   color: #fff;
-  background-color: #67381B;
+  background-color: #67381b;
 }
 
 main ol{
