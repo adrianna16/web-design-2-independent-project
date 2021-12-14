@@ -79,8 +79,8 @@ header li a:hover {
 main {
   display: grid;
   grid-template-areas:
-  "title"
-  "drinks";
+    "title"
+    "drinks";
 }
 
 main h2 {
