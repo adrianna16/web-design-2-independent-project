@@ -9,10 +9,11 @@
 </head>
 
 <body>
-  <header>
+  <header role="banner">
+    <a href="#main">jump to main content</a>
     <img src="www/images/logo-64.svg" alt="">
     <h1>The Coffee Spot</h1>
-    <nav>
+    <nav role="navigation">
       <ul>
         <li><a href="html/menu.html">MENU</a></li>
         <li><a href="html/shop.html">SHOP</a></li>
@@ -24,7 +25,7 @@
     <img class="banner" src="www/images/banner.jpg" alt="Banner of coffee shop">
   </article>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <h2 class="title">SPECIALTY DRINKS</h2>
     <ol class="drinks">
       <li><img src="www/images/chai-latte.jpg" alt="Drink #1"></li>
@@ -40,7 +41,7 @@
     </figure>
   </aside>
 
-  <footer>
+  <footer role="contentinfo">
     <ul>
       <li><a href="contact-us">CONTACT US</a></li>
       <li><a href="index.html">HOME</a></li>
