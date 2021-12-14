@@ -79,6 +79,7 @@ header li a:hover {
 main {
   display: grid;
   grid-template-areas:
+    "article"
     "title"
     "drinks";
 }
@@ -100,9 +101,17 @@ main ol {
   margin-left: -3rem;
 }
 
+main a {
+  display: none;
+}
+
 main ol li {
   margin: 0;
   padding: 1rem;
+}
+
+.article {
+  grid-area: article;
 }
 
 .title {
@@ -142,11 +151,11 @@ main ol li {
 
 }
 
-aside {
+section {
   background: #67381b;
 }
 
-aside figcaption {
+section figcaption {
   font-size: 2rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -156,7 +165,7 @@ aside figcaption {
   background-color: #67381b;
 }
 
-aside img {
+section img {
   padding: 1rem;
   padding-bottom: 4rem;
 }
