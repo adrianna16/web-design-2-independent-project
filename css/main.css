@@ -126,6 +126,10 @@ main ol li {
   grid-area: drinks;
 }
 
+main ol a:focus {
+  outline: 2px solid #fff;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -155,21 +159,20 @@ main ol li {
 
 }
 
-section {
+aside {
   background: #67381b;
 }
 
-section figcaption {
+aside figcaption {
   font-size: 2rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   margin-bottom: -.35rem;
   text-align: center;
   color: #fff;
-  background-color: #67381b;
 }
 
-section img {
+aside img {
   padding: 1rem;
   padding-bottom: 4rem;
 }
